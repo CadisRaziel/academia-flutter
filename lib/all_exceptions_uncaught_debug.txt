@@ -1,0 +1,5 @@
+quando clicanos no debug vemos 2 opções
+
+
+All Exceptions -> sempre que acontecer um erro e quer que coloque um breakponint antes do erro deixe marcado essa opção
+Unchaugtht Exceptions -> não deixe marcado nunca(pois pode dar um breakpoint dentro de um package de terceiro e pode esconder o erro real)

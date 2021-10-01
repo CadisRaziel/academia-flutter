@@ -1,0 +1,1 @@
+aqui na pasta bin é aonde teremos nosso arquivo que ira inicializar esse projeto
