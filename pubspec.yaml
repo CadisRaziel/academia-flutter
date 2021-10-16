@@ -2,17 +2,17 @@ name: academi_flutter
 description: Descrição do projeto
 version: 1.0.0
 # homepage: https://www.example.com
-
 environment:
   sdk: ">=2.14.0 <3.0.0"
 
 #Aqui fica as dependencia de terceiros
 # dependencies:
 #   path: ^1.8.0
-
 #Diferença entre 'dependencies' e 'dev_dependencies' => as dependencies vão junto com o projeto quando for publicado
 #as dev_dependencies => dependencia que são utilizadas somente no momento de desenvolvimento, ou seja eles nao sao publicados junto com o projeto
 #Cuidaod entre as diferenças !!
+dependencies:
+  http: ^0.13.4
+
 dev_dependencies:
-  lints: ^1.0.0
   test: ^1.16.0

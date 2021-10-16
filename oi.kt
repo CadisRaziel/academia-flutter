@@ -314,6 +314,7 @@ class FlutterWifiConnectPlugin() : FlutterPlugin, MethodCallHandler {
   fun connect(@NonNull specifier: WifiNetworkSpecifier, @NonNull result: Result){
     if (this.networkCallback != null) {
       // there was already a connection, unregister to disconnect before proceeding
+      //* AQUI CONCERTAMOS O ERRO COM O OPERADOR '!!'
       connectivityManager.unregisterNetworkCallback(this.networkCallback!!)
     }
     val request = NetworkRequest.Builder()
